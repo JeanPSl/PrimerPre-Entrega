@@ -15,10 +15,10 @@ while (volverATirar) {
         opcionUsuario2 = ingresarOpcion("Ingrese que opciones desea tirar");
     } while (!opcionEsCorrecta(opcionUsuario2));
 
-    var resultado = validarGanador(opcionUsuario1, opcionUsuario2)
+    let resultado = validarGanador(opcionUsuario1, opcionUsuario2)
     
     console.log(resultado)
-    
+
     volverATirar = confirm("Desea volver a jugar?")
 }
 
