@@ -17,7 +17,7 @@ while (volverATirar) {
 
     let resultado = validarGanador(opcionUsuario1, opcionUsuario2)
     
-    console.log(resultado)
+    alert(resultado)
 
     volverATirar = confirm("Desea volver a jugar?")
 }
@@ -31,7 +31,7 @@ function opcionEsCorrecta (opcionElegida) {
 }
 
 function ingresarOpcion (mensaje) { 
-    return prompt(mensaje).toLowerCase()
+    return prompt(mensaje).toLowerCase().trim()
 }
 
 function validarGanador (opcionUsuario1, opcionUsuario2) {
