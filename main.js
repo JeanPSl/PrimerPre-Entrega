@@ -3,7 +3,7 @@
 let volverATirar = true;
 
 while (volverATirar) {
-    console.log("Ingresar opcion PIEDRA, PAPEL O TIJERA")
+    alert("Ingresar opcion PIEDRA, PAPEL O TIJERA")
 
     let opcionUsuario1
     do {
